@@ -1,0 +1,27 @@
+ping-service:
+  ip-addresses:
+    - name: Localhost
+      address: "localhost"
+    - name: Archive
+      address: "web.archive.org"
+    - name: UTAR
+      address: "lkcfes.utar.edu.my"
+    - name: InfoCern
+      address: "info.cern.ch"
+    - name: hpProbook
+      address: "192.168.10.49"
+  timeout: 2000
+  receiverIPAddress: "192.168.10.24"
+  receiverPort: 162
+  community: "public"
+  OID: "1.3.6.1.4.1.9001.1"
+  senderSysObjectID: "1.3.6.1.6.3.1.1.4.1"
+  senderIPAddress: "192.168.10.24"
+  genericTrap: 6
+  specificTrap: 1
+  senderUpTime: 0
+  Seetec_version: "SeeTec Cayuga"
+  Type_of_installation: "INR 6011165"
+  senderEmail: ps02@tech-store.com.my
+  en_pass: DO+RhoUL5fAZmV0v1vExEg==
+  receiverEmail: ps02@tech-store.com.my

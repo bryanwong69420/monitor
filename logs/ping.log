@@ -1,0 +1,732 @@
+2024-11-15; 09:13:53,542; INFO; START;  ==============================================================
+2024-11-15; 09:13:53,547; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 09:13:53,547; INFO; START;  ==============================================================
+2024-11-15; 09:13:53,547; INFO; CONFIG;  Loading configurations...
+2024-11-15; 09:13:53,548; INFO; CONFIG;  onStartDateTime: Fri Nov 15 09:13:53 MYT 2024
+2024-11-15; 09:13:53,551; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, deas.utar.edu.my]
+2024-11-15; 09:13:53,551; INFO; CONFIG;  taskTimeoutSeconds: 10000
+2024-11-15; 09:13:53,551; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 09:13:53,551; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 09:13:53,551; INFO; CONFIG;  community: public
+2024-11-15; 09:13:53,551; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 09:13:53,552; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 09:13:53,552; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 09:13:53,552; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 09:13:53,552; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 09:13:53,552; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 09:13:53,552; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 09:13:53,552; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 09:13:53,552; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,deas.utar.edu.my,
+2024-11-15; 09:13:53,557; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [14.0ms]
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [14.0ms]
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [284.0ms]
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:14:12,496; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:14:12]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:14:12,532; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:14:27,495; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [18.0ms]
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [285.0ms]
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:14:27,496; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:14:27]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:14:27,562; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [21.0ms]
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [21.0ms]
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [296.0ms]
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:14:38,502; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:14:38]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:14:38,520; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:14:53,490; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [15.0ms]
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [15.0ms]
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [297.0ms]
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:14:53,492; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:14:53]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:14:53,512; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [28.0ms]
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:15:00,700; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:15:00]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:15:00,762; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [20.0ms]
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [25.0ms]
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [293.0ms]
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:15:15,491; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:15:15]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:15:15,543; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [308.0ms]
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:15:30,730; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:15:30]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:15:30,751; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [286.0ms]
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:15:45,490; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:15:45]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:15:45,525; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [287.0ms]
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:16:00,495; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:16:00]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:16:00,516; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:16:15,725; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:16:15,725; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:16:15,726; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:16:15,726; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [280.0ms]
+2024-11-15; 09:16:15,726; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:16:15,726; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:16:15]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:16:15,744; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [9.0ms]
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [282.0ms]
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:16:26,495; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:16:26]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:16:26,595; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [24.0ms]
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [24.0ms]
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [285.0ms]
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:16:37,498; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:16:37]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:16:37,561; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [289.0ms]
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:16:52,496; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:16:52]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:16:52,500; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [279.0ms]
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:17:11,500; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:17:11]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:17:11,520; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [21.0ms]
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [281.0ms]
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:17:30,493; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:17:30]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:17:30,514; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [18.0ms]
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [283.0ms]
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:17:49,497; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:17:49]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:17:49,582; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [19.0ms]
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:18:08,494; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:18:08]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:18:08,514; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [299.0ms]
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:18:23,710; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:18:23]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:18:23,740; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [284.0ms]
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:18:42,495; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:18:42]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:18:42,592; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [9.0ms]
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [279.0ms]
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:18:53,497; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:18:53]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:18:53,501; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [279.0ms]
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:19:08,506; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:19:08]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:19:08,535; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [15.0ms]
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [278.0ms]
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:19:23,705; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:19:23]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:19:23,709; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [11.0ms]
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [283.0ms]
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:19:38,697; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:19:38]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:19:38,734; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:19:53,492; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:19:53,492; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:19:53,493; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:19:53,493; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [278.0ms]
+2024-11-15; 09:19:53,493; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:19:53,493; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:19:53]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:19:53,556; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [277.0ms]
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:20:12,532; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:20:12]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:20:12,542; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [279.0ms]
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:20:23,714; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:20:23]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:20:23,764; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:20:42,497; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:20:42,497; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:20:42,497; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 09:20:42,498; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:20:42,498; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [286.0ms]
+2024-11-15; 09:20:42,498; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:20:42,498; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:20:42]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:20:42,528; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [27.0ms]
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [29.0ms]
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [278.0ms]
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:20:57,491; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:20:57]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:20:57,523; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [18.0ms]
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [14.0ms]
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [291.0ms]
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:21:12,495; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:21:12]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:21:12,508; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [18.0ms]
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [295.0ms]
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:21:27,493; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:21:27]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:21:27,509; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:21:38,715; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:21:38,716; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:21:38]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:21:38,820; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [285.0ms]
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:21:53,995; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:21:53]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:21:54,072; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [35.0ms]
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [41.0ms]
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [305.0ms]
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:22:13,000; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:22:13]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:22:13,078; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [28.0ms]
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [29.0ms]
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [350.0ms]
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:22:28,005; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:22:28]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:22:28,069; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [22.0ms]
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [22.0ms]
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [291.0ms]
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:22:35,218; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:22:35]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:22:35,241; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [27.0ms]
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [25.0ms]
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [295.0ms]
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:22:46,242; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:22:46]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:22:46,255; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:23:01,258; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [25.0ms]
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [25.0ms]
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [286.0ms]
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:23:01,259; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:23:01]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:23:01,286; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:23:16,220; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:23:16,220; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:23:16,220; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [37.0ms]
+2024-11-15; 09:23:16,220; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:23:16,221; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:23:16,221; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:23:16]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:23:16,303; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [27.0ms]
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [289.0ms]
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:23:27,217; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:23:27]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:23:27,317; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [309.0ms]
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:23:42,000; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:23:42]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:23:42,033; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [20.0ms]
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [282.0ms]
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:23:57,011; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:23:57]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:23:57,046; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [18.0ms]
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [282.0ms]
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:24:16,021; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:24:16]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:24:16,113; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:24:31,335; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:24:31,335; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:24:31,335; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [29.0ms]
+2024-11-15; 09:24:31,335; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [29.0ms]
+2024-11-15; 09:24:31,335; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [326.0ms]
+2024-11-15; 09:24:31,336; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:24:31,336; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:24:31]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:24:31,356; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [22.0ms]
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [23.0ms]
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:24:50,505; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:24:50]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:24:50,559; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [41.0ms]
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [43.0ms]
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [282.0ms]
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:25:05,897; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:25:05]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:25:05,966; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [182.0ms]
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [181.0ms]
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [298.0ms]
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:25:16,999; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:25:16]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:25:17,061; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [204.0ms]
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [349.0ms]
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:25:36,010; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:25:36]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:25:36,070; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [35.0ms]
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [79.0ms]
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [318.0ms]
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:25:50,994; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:25:50]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:25:50,995; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:26:09,996; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:26:09,996; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:26:09,996; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [68.0ms]
+2024-11-15; 09:26:09,996; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [69.0ms]
+2024-11-15; 09:26:09,996; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [352.0ms]
+2024-11-15; 09:26:09,997; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:26:09,997; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:26:09]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:26:10,039; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [40.0ms]
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [42.0ms]
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [321.0ms]
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:26:25,223; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:26:25]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:26:25,310; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:26:40,086; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [19.0ms]
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [33.0ms]
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [294.0ms]
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:26:40,087; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:26:40]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:26:40,119; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:26:55,002; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:26:55,002; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:26:55,002; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [20.0ms]
+2024-11-15; 09:26:55,003; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [312.0ms]
+2024-11-15; 09:26:55,003; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:26:55,003; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:26:55]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:26:55,077; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [30.0ms]
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [23.0ms]
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [306.0ms]
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:27:14,075; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:27:14]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:27:14,077; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [17.0ms]
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [19.0ms]
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [298.0ms]
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:27:29,016; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:27:29]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:27:29,116; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [26.0ms]
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [26.0ms]
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [290.0ms]
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 09:27:44,001; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [09:27:44]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 09:27:44,014; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:19:05,203; INFO; START;  ==============================================================
+2024-11-15; 10:19:05,204; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 10:19:05,204; INFO; START;  ==============================================================
+2024-11-15; 10:19:05,204; INFO; CONFIG;  Loading configurations...
+2024-11-15; 10:19:05,204; INFO; CONFIG;  onStartDateTime: Fri Nov 15 10:19:05 MYT 2024
+2024-11-15; 10:19:05,205; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, deas.utar.edu.my]
+2024-11-15; 10:19:05,205; INFO; CONFIG;  taskTimeoutSeconds: 2000
+2024-11-15; 10:19:05,205; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 10:19:05,205; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 10:19:05,205; INFO; CONFIG;  community: public
+2024-11-15; 10:19:05,205; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 10:19:05,205; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 10:19:05,205; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 10:19:05,205; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 10:19:05,205; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 10:19:05,205; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 10:19:05,205; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 10:19:05,205; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 10:19:05,205; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,deas.utar.edu.my,
+2024-11-15; 10:19:05,207; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:19:12,497; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:19:12,497; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:19:12,497; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [35.0ms]
+2024-11-15; 10:19:12,497; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [364.0ms]
+2024-11-15; 10:19:12,499; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:19:12,499; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:19:12]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:19:12,549; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [56.0ms]
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [357.0ms]
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:19:31,502; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:19:31]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:19:31,588; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [269.0ms]
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:19:38,496; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:19:38]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:19:38,578; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [15.0ms]
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [15.0ms]
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [281.0ms]
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:19:49,707; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:19:49]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:19:49,773; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [25.0ms]
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [83.0ms]
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [271.0ms]
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:20:08,499; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:20:08]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:20:08,542; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [30.0ms]
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [305.0ms]
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:20:19,502; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:20:19]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:20:19,602; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [555.0ms]
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [554.0ms]
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [682.0ms]
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:20:34,996; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:20:34]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:20:35,035; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [19.0ms]
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [280.0ms]
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:20:49,997; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:20:49]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:20:50,032; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [267.0ms]
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:21:08,993; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:21:08]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:21:09,011; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [14.0ms]
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [270.0ms]
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:21:20,004; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:21:20]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:21:20,023; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [275.0ms]
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:21:35,003; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:21:35]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:21:35,053; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [268.0ms]
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:21:49,995; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:21:49]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:21:50,045; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [268.0ms]
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:22:00,991; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:22:00]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:22:01,040; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [276.0ms]
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:22:08,214; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:22:08]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:22:08,304; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [30.0ms]
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [285.0ms]
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:22:27,000; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:22:27]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:22:27,097; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [58.0ms]
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [336.0ms]
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:22:46,001; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:22:46]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:22:46,084; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [29.0ms]
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [16.0ms]
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [274.0ms]
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:23:01,008; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:23:01]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:23:01,084; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [266.0ms]
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:23:19,999; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:23:19]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:23:20,041; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [10.0ms]
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [273.0ms]
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:23:39,011; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:23:39]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:23:39,114; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [9.0ms]
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [278.0ms]
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:23:57,994; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:23:57]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:23:58,062; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:24:12,997; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [273.0ms]
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:24:12,998; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:24:12]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:24:13,078; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [12.0ms]
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [19.0ms]
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [271.0ms]
+2024-11-15; 10:24:27,993; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:24:27,994; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:24:27]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:24:28,027; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 10:24:47,001; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 10:24:47,001; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 10:24:47,001; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [8.0ms]
+2024-11-15; 10:24:47,001; INFO; ROUTINE;  Ping to deas.utar.edu.my succeeded. [7.0ms]
+2024-11-15; 10:24:47,001; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [270.0ms]
+2024-11-15; 10:24:47,002; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 10:24:47,002; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [10:24:47]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 10:24:47,020; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 14:33:27,640; INFO; START;  ==============================================================
+2024-11-15; 14:33:27,640; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 14:33:27,640; INFO; START;  ==============================================================
+2024-11-15; 14:33:27,640; INFO; CONFIG;  Loading configurations...
+2024-11-15; 14:33:27,641; INFO; CONFIG;  onStartDateTime: Fri Nov 15 14:33:27 MYT 2024
+2024-11-15; 14:33:27,641; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, 192.168.10.49]
+2024-11-15; 14:33:27,641; INFO; CONFIG;  taskTimeoutSeconds: 2000
+2024-11-15; 14:33:27,641; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 14:33:27,641; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 14:33:27,641; INFO; CONFIG;  community: public
+2024-11-15; 14:33:27,641; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 14:33:27,641; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 14:33:27,642; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 14:33:27,642; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 14:33:27,642; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 14:33:27,642; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 14:33:27,642; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 14:33:27,642; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 14:33:27,642; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,192.168.10.49,
+2024-11-15; 14:33:27,644; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 14:34:10,218; INFO; START;  ==============================================================
+2024-11-15; 14:34:10,218; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 14:34:10,218; INFO; START;  ==============================================================
+2024-11-15; 14:34:10,218; INFO; CONFIG;  Loading configurations...
+2024-11-15; 14:34:10,218; INFO; CONFIG;  onStartDateTime: Fri Nov 15 14:34:10 MYT 2024
+2024-11-15; 14:34:10,219; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, 192.168.10.49]
+2024-11-15; 14:34:10,219; INFO; CONFIG;  taskTimeoutSeconds: 2000
+2024-11-15; 14:34:10,219; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 14:34:10,219; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 14:34:10,219; INFO; CONFIG;  community: public
+2024-11-15; 14:34:10,219; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 14:34:10,219; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 14:34:10,219; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 14:34:10,219; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 14:34:10,220; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 14:34:10,220; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 14:34:10,220; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 14:34:10,220; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 14:34:10,220; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,192.168.10.49,
+2024-11-15; 14:34:10,221; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 14:36:56,097; INFO; START;  ==============================================================
+2024-11-15; 14:36:56,097; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 14:36:56,097; INFO; START;  ==============================================================
+2024-11-15; 14:36:56,097; INFO; CONFIG;  Loading configurations...
+2024-11-15; 14:36:56,097; INFO; CONFIG;  onStartDateTime: Fri Nov 15 14:36:56 MYT 2024
+2024-11-15; 14:36:56,098; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, 192.168.10.49]
+2024-11-15; 14:36:56,098; INFO; CONFIG;  taskTimeoutSeconds: 2000
+2024-11-15; 14:36:56,098; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 14:36:56,098; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 14:36:56,098; INFO; CONFIG;  community: public
+2024-11-15; 14:36:56,098; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 14:36:56,098; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 14:36:56,098; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 14:36:56,098; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 14:36:56,098; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 14:36:56,099; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 14:36:56,099; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 14:36:56,099; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 14:36:56,099; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,192.168.10.49,
+2024-11-15; 14:36:56,100; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 14:37:51,240; INFO; START;  ==============================================================
+2024-11-15; 14:37:51,240; INFO; START;  ==================// START OF THE PROGRAM //==================
+2024-11-15; 14:37:51,240; INFO; START;  ==============================================================
+2024-11-15; 14:37:51,241; INFO; CONFIG;  Loading configurations...
+2024-11-15; 14:37:51,241; INFO; CONFIG;  onStartDateTime: Fri Nov 15 14:37:51 MYT 2024
+2024-11-15; 14:37:51,241; INFO; CONFIG;  ipAddressesList: [localhost, web.archive.org, lkcfes.utar.edu.my, info.cern.ch, 192.168.10.49]
+2024-11-15; 14:37:51,242; INFO; CONFIG;  taskTimeoutSeconds: 2000
+2024-11-15; 14:37:51,242; INFO; CONFIG;  receiverIPAddress: 192.168.10.24
+2024-11-15; 14:37:51,242; INFO; CONFIG;  receiverPort: 162
+2024-11-15; 14:37:51,242; INFO; CONFIG;  community: public
+2024-11-15; 14:37:51,242; INFO; CONFIG;  OID: 1.3.6.1.4.1.9001.1
+2024-11-15; 14:37:51,242; INFO; CONFIG;  senderSysObjectID: 1.3.6.1.6.3.1.1.4.1
+2024-11-15; 14:37:51,242; INFO; CONFIG;  senderIPAddress: 192.168.10.24
+2024-11-15; 14:37:51,242; INFO; CONFIG;  genericTrap: 6
+2024-11-15; 14:37:51,242; INFO; CONFIG;  specificTrap: 1
+2024-11-15; 14:37:51,242; INFO; CONFIG;  senderUpTime: 0
+2024-11-15; 14:37:51,242; INFO; CONFIG;  Seetec_version: SeeTec Cayuga
+2024-11-15; 14:37:51,242; INFO; CONFIG;  Type_of_installation: INR 6011165
+2024-11-15; 14:37:51,242; INFO; Timestamp,localhost,web.archive.org,lkcfes.utar.edu.my,info.cern.ch,192.168.10.49,
+2024-11-15; 14:37:51,243; INFO; ROUTINE;  Starting Ping Cycle
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  =======================Ping Response=====================
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  Ping to localhost succeeded. [0.0ms]
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  Ping to lkcfes.utar.edu.my succeeded. [13.0ms]
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  Ping to info.cern.ch succeeded. [309.0ms]
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  Ping to 192.168.10.49 failed to reach the destination.
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [14:38:00]; Timeout [192.168.10.49]/[hpProbook] from [192.168.10.24]
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  Ping to web.archive.org failed to reach the destination.
+2024-11-15; 14:38:10,367; INFO; ROUTINE;  ERROR: [SeeTec Cayuga] / [INR 6011165] [14:38:10]; Timeout [web.archive.org]/[Archive] from [192.168.10.24]
+2024-11-15; 14:38:10,390; INFO; ROUTINE;  Starting Ping Cycle

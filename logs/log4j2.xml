@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="XMLConfig">
+
+    <!-- Root Logger -->
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd}; %d{HH:mm:ss,SSS}; %p; %m%n"/>
+        </Console>
+
+        <!-- RollingFile Appender for General PingService logs -->
+        <RollingFile name="PingServiceFile" fileName="logs/ping.log" filePattern="logs/ping-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd}; %d{HH:mm:ss,SSS}; %p; %m%n"/>
+            <MarkerFilter marker="PING_EXCEL" onMatch="DENY" onMismatch="ACCEPT"/>
+            <Policies>
+                <!-- TimeBasedTriggeringPolicy for rolling based on time -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" fileIndex="min"/>
+        </RollingFile>
+               
+        <!-- RollingFile Appender for PingService Excel Logs with a MarkerFilter applied -->
+        <RollingFile name="PingServiceExcelFile" fileName="logs/pingExcel.log" filePattern="logs/pingExcel-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss:SSS},%m%n"/>
+            <MarkerFilter marker="PING_EXCEL" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" fileIndex="min"/>
+        </RollingFile>
+        
+        <!-- RollingFile Appender for PingServiceHeader Excel Logs with a MarkerFilter applied -->
+        <RollingFile name="PingHeaderExcelFile" fileName="logs/pingExcel.log" filePattern="logs/pingExcel-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%m%n"/>
+            <MarkerFilter marker="PING_HEADER_EXCEL" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" fileIndex="min"/>
+        </RollingFile>
+        
+        <!-- Appender for Request Overall Hardware Usage -->
+        <RollingFile name="RequestOverallFile" fileName="logs/req_over.log" filePattern="logs/req_over-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd}; %d{HH:mm:ss,SSS}; %p; %m%n"/>
+            <Policies>
+                <!-- TimeBasedTriggeringPolicy for rolling based on time -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" fileIndex="min"/>
+        </RollingFile>
+        
+        <!-- Appender for Request Service Operation Status -->
+        <RollingFile name="RequestServiceOperationStatusFile" fileName="logs/req_stat.log" filePattern="logs/req_stat-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd}; %d{HH:mm:ss,SSS}; %p; %m%n"/>
+            <Policies>
+                <!-- TimeBasedTriggeringPolicy for rolling based on time -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10" fileIndex="min"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Logger for PingServiceClass, sending logs to PingServiceFile -->
+        <Logger name="com.example.ServerSide.ServerService.PingService" level="info" additivity="false">
+            <AppenderRef ref="PingServiceFile"/>
+            <AppenderRef ref="PingServiceExcelFile"/>
+            <AppenderRef ref="PingHeaderExcelFile"/>
+        </Logger>
+
+        <!-- Logger for RequestOverallHardwareServiceClass, sending logs to RequestOverallFile -->
+        <Logger name="com.example.ServerSide.ServerService.RequestOverallHardwareService" level="info" additivity="false">
+            <AppenderRef ref="RequestOverallFile"/>
+        </Logger>
+        
+        <!-- Logger for RequestServiceOperationStatusClass, sending logs to RequestServiceOperationStatusFile -->
+        <Logger name="com.example.ServerSide.ServerService.RequestServiceOperationStatusService" level="info" additivity="false">
+            <AppenderRef ref="RequestServiceOperationStatusFile"/>
+        </Logger>
+        
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
